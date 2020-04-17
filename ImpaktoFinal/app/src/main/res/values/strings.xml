@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Impakto</string>
+    <string name="action_sign_in_short">Registrar</string>
+    <string name="email">Correo</string>
+    <string name="minimum_password">Contaseña muy corta. Ingresar mínimo 6 caracteres</string>
+    <string name="auth_failed">Autenticación fallida. Verifique su correo u email.</string>
+    <string name="change_email">Cambiar Email</string>
+    <string name="change_password">Cambiar Contraseña</string>
+    <string name="send_password_reset_email">Send Password reset email</string>
+    <string name="remove_user">Remover usuario</string>
+    <string name="new_pass">Nueva Contraseña</string>
+    <string name="title_activity_profile">Firebase</string>
+    <string name="title_activity_login">Ingresar</string>
+    <string name="hint_email">Correo</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">INGRESA</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="btn_link_to_register">¿No tienes cuenta? Registrate</string>
+    <string name="btn_link_to_login">Te estás registrando. ¡Ingresa aquí!</string>
+    <string name="title_activity_reset_password">Cambiar Contraseña</string>
+    <string name="btn_forgot_password">¿Olvidaste tu contraseña?</string>
+    <string name="btn_reset_password">Cambia tu contraseña</string>
+    <string name="btn_back">REGRESAR</string>
+    <string name="hint_new_email">Nuevo Correo</string>
+    <string name="btn_change">Cambiar</string>
+    <string name="btn_send">Enviar</string>
+    <string name="btn_remove">Remover</string>
+    <string name="btn_sign_out">Sign Out</string>
+    <string name="lbl_forgot_password">¿Olvidaste tu contraseña? ☹️</string>
+    <string name="forgot_password_msg">Ingresa el correo con el que te registraste para enviarte instrucciones.</string>
+    <string name="email_id">Email ID</string>
+</resources>

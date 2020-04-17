@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Recycler</string>
+    <string name="til_user">Usuario</string>
+    <string name="til_pwd">Contraseña</string>
+    <string name="btn_login">Entrar</string>
+    <string name="tv_welcome">Bienvenido, Ingrese</string>
+    <string name="copyright">
+        Desarrollado por Juan Perez®
+    </string>
+    <string name="tv_error">Usuario y/o contraseña incorrectos</string>
+</resources><!--© alt 0169--><!--® alt 169-->

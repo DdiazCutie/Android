@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pagina_Principal">
+
+    <ImageView
+        android:id="@+id/impacto"
+        android:layout_width="70dp"
+        android:layout_height="106dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/impacto" />
+
+    <ImageView
+        android:id="@+id/catalogo"
+        android:layout_width="141dp"
+        android:layout_height="184dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="8dp"
+        android:adjustViewBounds="false"
+        app:layout_constraintEnd_toStartOf="@+id/tienda"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/catalogo" />
+
+    <ImageView
+        android:id="@+id/tienda"
+        android:layout_width="167dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/tienda" />
+
+    <Button
+        android:id="@+id/bcatalogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:text="Catalogo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/catalogo" />
+
+    <Button
+        android:id="@+id/bconfiguracion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Configuracion"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toEndOf="@+id/bofertea"
+        app:layout_constraintTop_toBottomOf="@+id/settings"
+        app:layout_constraintVertical_bias="0.618" />
+
+    <Button
+        android:id="@+id/bofertea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Oferta"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/oferta"
+        app:layout_constraintVertical_bias="0.657" />
+
+    <Button
+        android:id="@+id/btienda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:text="Tiendas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.584"
+        app:layout_constraintStart_toEndOf="@+id/bcatalogo"
+        app:layout_constraintTop_toBottomOf="@+id/tienda" />
+
+    <ImageView
+        android:id="@+id/oferta"
+        android:layout_width="155dp"
+        android:layout_height="97dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bcatalogo"
+        app:srcCompat="@drawable/oferta" />
+
+    <ImageView
+        android:id="@+id/settings"
+        android:layout_width="155dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/oferta"
+        app:layout_constraintTop_toBottomOf="@+id/btienda"
+        app:srcCompat="@drawable/settings" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TiendaActivity">
+
+
+    <ImageView
+        android:id="@+id/imageWilson"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/tableLayout4"
+        app:layout_constraintTop_toBottomOf="@+id/imagecyber"
+        app:layout_constraintVertical_bias="0.228"
+        app:srcCompat="@drawable/wilson" />
+
+    <ImageView
+        android:id="@+id/imagecyber"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/tableLayout3"
+        app:layout_constraintTop_toBottomOf="@+id/imageCompu"
+        app:srcCompat="@drawable/cyber" />
+
+    <ImageView
+        android:id="@+id/imageCompu"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/tableLayout1"
+        app:layout_constraintTop_toBottomOf="@+id/imagecentro"
+        app:srcCompat="@drawable/compu" />
+
+    <ImageView
+        android:id="@+id/imagecentro"
+        android:layout_width="156dp"
+        android:layout_height="106dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.272"
+        app:layout_constraintStart_toEndOf="@+id/tableLayout2"
+        app:srcCompat="@drawable/centro"
+        tools:layout_editor_absoluteY="53dp" />
+
+    <TableLayout
+        android:id="@+id/tableLayout4"
+        android:layout_width="209dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout3"
+        app:layout_constraintVertical_bias="0.161">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tiendawilson"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tienda:"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="84dp" />
+
+            <TextView
+                android:id="@+id/twilson"
+                android:layout_width="148dp"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/editbox_background"
+                android:text="C.C Wilson Plaza"
+                tools:layout_editor_absoluteX="93dp"
+                tools:layout_editor_absoluteY="84dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/direccionwilson"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Direccion:"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="116dp" />
+
+            <TextView
+                android:id="@+id/direcwilson"
+                android:layout_width="148dp"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/editbox_background"
+                android:text="Av.Cercado 1805"
+                tools:layout_editor_absoluteX="93dp"
+                tools:layout_editor_absoluteY="84dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/telefonowilson"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Telefono:" />
+
+            <TextView
+                android:id="@+id/telfwilson"
+                android:layout_width="148dp"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/editbox_background"
+                android:text="912356897"
+                tools:layout_editor_absoluteX="93dp"
+                tools:layout_editor_absoluteY="84dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/tableLayout3"
+        android:layout_width="209dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout1">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tiendacyberplaza"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tienda:"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="84dp" />
+
+            <TextView
+                android:id="@+id/tcyber"
+                android:layout_width="148dp"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/editbox_background"
+                android:text="C.C Cyber Plaza"
+                tools:layout_editor_absoluteX="93dp"
+                tools:layout_editor_absoluteY="84dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/direccioncyber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Direccin:"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="116dp" />
+
+            <TextView
+                android:id="@+id/direccyber"
+                android:layout_width="148dp"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/editbox_background"
+                android:text=" Inka Garcilazo 148"
+                tools:layout_editor_absoluteX="93dp"
+                tools:layout_editor_absoluteY="84dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/telefonocyber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Telefono:" />
+
+            <TextView
+                android:id="@+id/telfcybe"
+                android:layout_width="148dp"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/editbox_background"
+                android:text="999936207"
+                tools:layout_editor_absoluteX="93dp"
+                tools:layout_editor_absoluteY="84dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="209dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout2">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tiendacompuplace"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tienda:"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="84dp" />
+
+            <TextView
+                android:id="@+id/tcompu"
+                android:layout_width="148dp"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/editbox_background"
+                android:text="C.C Compu Palace"
+                tools:layout_editor_absoluteX="93dp"
+                tools:layout_editor_absoluteY="84dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/direccioncompu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dirrecion:"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="116dp" />
+
+            <TextView
+                android:id="@+id/dcompu"
+                android:layout_width="148dp"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/editbox_background"
+                android:text="Av. Petit thuars 5358 - Miraflores"
+                tools:layout_editor_absoluteX="93dp"
+                tools:layout_editor_absoluteY="84dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/telefonocompu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Telefono:" />
+
+            <TextView
+                android:id="@+id/telcompu"
+                android:layout_width="148dp"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/editbox_background"
+                android:text="943304158"
+                tools:layout_editor_absoluteX="93dp"
+                tools:layout_editor_absoluteY="84dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/tableLayout2"
+        android:layout_width="209dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="69dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tiendacentro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tienda:"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="84dp" />
+
+            <TextView
+                android:id="@+id/tc"
+                android:layout_width="148dp"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/editbox_background"
+                android:text="C.C Centro Lima"
+                tools:layout_editor_absoluteX="93dp"
+                tools:layout_editor_absoluteY="84dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/direccioncentro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Direccion:"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="116dp" />
+
+            <TextView
+                android:id="@+id/dc"
+                android:layout_width="148dp"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/editbox_background"
+                android:text="Av. Bolivia 148 Centro Lima"
+                tools:layout_editor_absoluteX="93dp"
+                tools:layout_editor_absoluteY="84dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/telefonocentro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Telefono:" />
+
+            <TextView
+                android:id="@+id/tcentro"
+                android:layout_width="148dp"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/editbox_background"
+                android:text="981446808"
+                tools:layout_editor_absoluteX="93dp"
+                tools:layout_editor_absoluteY="84dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </TableLayout>
+
+
+</android.support.constraint.ConstraintLayout>

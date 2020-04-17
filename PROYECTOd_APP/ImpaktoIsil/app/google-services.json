@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "788609446286",
+    "firebase_url": "https://impaktoisil-87f4c.firebaseio.com",
+    "project_id": "impaktoisil-87f4c",
+    "storage_bucket": "impaktoisil-87f4c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:788609446286:android:4f5757f312e79ea4",
+        "android_client_info": {
+          "package_name": "com.isil.impaktoisil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "788609446286-i4u9kor4ehv0ijd9o9j1nafsjo1ecshb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.isil.impaktoisil",
+            "certificate_hash": "3dcf044392959c9ca233d503cb50afdd167cd26f"
+          }
+        },
+        {
+          "client_id": "788609446286-sdasdak5kc57qpg27habgrc2avo48fhk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWbu6xunYJo0F4RnrZqMD2CVqYnKQkW5c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "788609446286-sdasdak5kc57qpg27habgrc2avo48fhk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

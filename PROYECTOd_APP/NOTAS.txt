@@ -1,0 +1,41 @@
+agregar cabecera venta
+num_boleta	Cliente	Tienda	metodo pago	fecha
+agregar detalle venta
+Cod_venta	num_boleta	cod_prod	cantidad	dscto
+NOTA: No crear columnas de campos que pueden ser calculados o mediante consulta
+
+cambiar tipo de dato de "telefono" a String
+cambiar tipo de dato de todos los "cod" a String
+
+consultar al profe por que utilizar "long" en DNI y RUC
+
+
+
+
+eliminar objeto catalogo (porque esto va estar como atributo en mi objeto producto)
+
+eliminar objeto estadistica (porque esto se va realizar en consultas SQL)
+-- Ventas acumuladas
+SELECT SUM(cantidad*Producto.precio)
+FROM Venta, Producto;
+-- Ventas mensual
+SELECT SUM(cantidad*Producto.precio)
+FROM Venta, Producto
+GROUP BY ;
+https://www.youtube.com/watch?v=RtlaM9_w--s
+https://www.youtube.com/watch?v=tpjmONtsXKI
+https://www.youtube.com/watch?v=FZLmXocmCLU
+
+NOTA: encriptacion en java
+https://www.youtube.com/watch?v=bJ6mbFLupQc
+
+
+RECOMENDACIONES LABORALES
+Estado = aprender mucho (flujo es estandar, si sabes en uno lo sabes en todos)
+	OFFICE SERAS DIOS, CON TITULO SI O SI 4500
+
+Privada = aprender (software especializado y lenguajes - java, visual basic, web, movil)
+	CON TITULO DEPENDE DE TU JEFE, 1500
+	BUSCAR PRACTICAS PAGADAS
+
+	https://www.computrabajo.com.pe/ofertas-de-trabajo/?q=practicante%20informatico
